@@ -45,7 +45,7 @@ describe("Scope", function() {
 
             scope.$watch(
                 function(scope) { return scope.someValue; },
-                function(newValue, oldValue, scope) { scope.counter++; };
+                function(newValue, oldValue, scope) { scope.counter++; }
             );
 
             expect(scope.counter).toBe(0);
@@ -53,13 +53,13 @@ describe("Scope", function() {
             scope.$digest();
             expect(scope.counter).toBe(1);
 
-            scope.$digaes();
+            scope.$digest();
             expect(scope.counter).toBe(1);
 
-            scope.someVAlue = 'b';
+            scope.someValue = 'b';
             expect(scope.counter).toBe(1);
 
-            scope.%digest();
+            scope.$digest();
             expect(scope.counter).toBe(2);
 
         });
