@@ -1,5 +1,7 @@
 # Build Your Own AngularJS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ezekeal/byo-angular.svg)](https://greenkeeper.io/)
+
 This repository contains the AngularJS implementation built during the course of the book [Build Your Own AngularJS](http://teropa.info/build-your-own-angular), as well as the errata for the book.
 
 ## Code
